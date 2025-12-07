@@ -1,0 +1,72 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(Sale/login.jpg);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 97vh;
+}
+
+.SignIn {
+  backdrop-filter: blur(20px);
+  border: 2px solid #2b0606;
+  border-radius: 30px;
+  width: 23%;
+  height: 54%;
+  margin-bottom: 13%;
+}
+
+.Fields {
+  padding: 50px;
+  justify-content: center;
+  display: block;
+}
+
+input {
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  margin-top: 20%;
+  margin-left: 8%;
+  border-bottom: 2px solid #2b0606;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+}
+
+input::placeholder {
+  color: #dcd9d9db;
+}
+
+.ActionButton {
+  margin-top: 15%;
+  margin-left: 29%;
+}
+
+.ActionButton :hover {
+  background: linear-gradient(to bottom, #ff0000, #000000);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.loginBtn {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 10px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #1a1313, #242424);
+  padding: 5px 25px;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  margin: 0%;
+  color: rgb(248, 223, 223);
+  text-align: center;
+  font-size: 30px;
+}
